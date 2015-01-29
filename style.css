@@ -1,0 +1,302 @@
+body {
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background-image:url("http://kaynicole.us/img/background2.jpg");
+  background-color:#99284d;
+  background-repeat:repeat-x;
+  font-family: tahoma, Arial, sans-serif;
+  color:#FFFFFF;
+  text-align:center;
+}
+
+#header {
+  position:absolute;
+  width:100%;
+  left:0px;
+  right:0px;
+  top:-8px;
+}
+
+#nav {
+  position:absolute;
+  display:inline-block;
+  font-family:"Courier New", Courier, monospace;
+  font-size:20px;
+  text-decoration:none;
+  color:black;
+  padding: 5px 5px 5px 5px;
+  margin-top:-1070px;
+  margin-left:-530px;
+  width:100%;
+  left:auto;
+  right:auto;
+  
+} -->
+
+div.space {
+  position:relative;
+  width:1200px;
+  top:-3px;
+  height:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:black;
+  overflow-y:scroll;
+}
+
+#inspace {
+  position:relative;
+  margin-top:20px;
+  width:900px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  border:5px solid black;
+  padding: 5px 5px 5px 5px;
+  color:white;
+  text-align:center;
+  border:1px dashed white;
+}
+
+#content {
+  margin:0 40px 40px 280px
+}
+
+#content ul {
+  margin: 2px 0 22px 0px
+}
+
+h2 {
+	font-size:32px;
+	color:white;
+	}
+h3 {
+	font-size:24px;
+	color:#22ffff;
+	background-color:#222222;
+	}
+h4, h5, h6 {
+	font-size:18px;
+	color:#ff88ff;
+	background-color:#222222;
+	}
+
+/* Navigation */
+	
+a.nav:link {
+    color:#899bc7;
+    text-decoration:none; 
+}
+
+a.nav:visited {
+	color:#FFFFFF; 
+}
+
+a.nav:hover {
+	color:#899bc7;
+	text-decoration:none; 
+}
+
+a.nav:active {
+    color: #899bc7; 
+}
+
+/* End Navigation */
+
+a {
+	text-decoration:underline;
+	color:#000000;
+	}
+	
+a:hover {
+	color:#00ff00;
+	}
+
+<!-- SOOPERFISH STYLESHEET -->
+
+.sf-menu { 
+  display: block;
+  position: relative;
+}
+  
+.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* Theming the menu */
+ul#nav { 
+  float: left;
+}
+
+ul#nav ul { 
+  width:150px;
+  text-align:center;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  font-size:16px;
+}
+
+ul#nav li a { 
+  padding: 5px 5px 5px 5px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none ;
+  color: black;
+  margin: 2px 2px 2px 2px;
+}
+
+ul#nav li a:hover, ul#nav li a:focus { 
+  color: #899bc7;
+  text-shadow: none;
+}
+
+ul#nav ul li a { 
+  color: black;
+}
+
+ul#nav ul li a:hover { 
+  color: #C3E600;
+  margin-right: 2px;
+}
+
+#home {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#about {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#blog {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#port {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#mtsg {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  border-radius:5px;
+}
+
+footer {
+	position:fixed;
+	text-align:center;
+	width:100%;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	color:white;
+  	background-color:black;
+	opacity:0.5;
+}
+
+footer a:link, a:visited, a:active 
+{
+    color: white;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px red; 
+    background: #99284d;
+}
